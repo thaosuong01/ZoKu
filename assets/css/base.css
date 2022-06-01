@@ -1,0 +1,22 @@
+:root {
+    --primary-color: #6cace4;
+    --text-color: #fff;
+}
+
+* {
+    margin: 0;
+    box-sizing: inherit;
+}
+
+body {
+    overflow-x:hidden;
+}
+
+html {
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    background-color: #fefefe;
+}
+

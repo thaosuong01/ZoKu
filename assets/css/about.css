@@ -1,0 +1,270 @@
+.about {
+    /* padding: 40px 100px; */
+    margin: 40px 100px;
+}
+
+
+.about__main {
+    padding-top: 24px;
+    box-shadow: 0 7px 29px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+}
+
+.about__main-container {
+    display: flex;
+    flex-direction: row;
+    padding: 24px 36px 36px;
+
+}
+
+.about__title {
+    font-size: 4rem;
+    height: 4rem;
+    line-height: 4rem;
+    margin: 24px 0;
+}
+
+.about__main-content {
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+}
+
+.content-sub {
+    font-size: 2rem;
+    line-height: 3rem;
+    padding-top: 24px;
+    font-weight: 200;
+}
+
+
+/* about__our-story */
+.about__nav {
+    display: flex;
+    /* flex-direction: row; */
+    /* width: 100%; */
+    --height-about: 400px;
+}
+
+.about__our-story {
+    height: var(--height-about);
+    background-color: var(--primary-color);
+    display: flex;
+    flex-direction: column;
+    padding: 48px;
+}
+
+.about__our-story-title {
+    color: var(--text-color);
+}
+
+.about__our-story-content {
+    font-size: 2rem;
+    height: 4rem;
+    line-height: 4rem;
+    color: var(--text-color);
+    padding-top: 32px;
+    font-weight: 200;
+}
+
+.about__our-story-img img {
+    /* width: calc(100%-300px); */
+    width: 100%;
+    height: var(--height-about);
+    padding-left: 32px;
+
+}
+
+.col.about__our-story-img {
+    padding: 0;
+}
+
+/* about main */
+.about__our {
+    padding-top: 24px;
+    width: 100%;
+}
+
+.about__main1 {
+    color: #444;
+}
+
+.about__main1-title {
+    color: #444;
+    text-align: center;
+}
+
+.about__main1-content {
+    padding: 0 24px;
+}
+
+.about__main1-content-sub {
+    color: #444;
+
+}
+
+.about__main1-content-sub:first-child {
+    padding-top: 0;
+}
+
+.about__main1-img {
+    display: flex;
+    flex-direction: column;
+    padding: 8px 24px 8px 8px;
+
+}
+
+.about__main1-img1 img {
+    /* width: 400px; */
+    width: 100%;
+    height: 200px;
+}
+
+.about__main1-img2 img {
+    width: 100%;
+    padding-top: 12px;
+    /* width: 400px; */
+    height: 200px;
+}
+
+/* main 2 */
+.about__main2 {
+    margin-top: 60px;
+    background-color: #b9a7d1;
+
+}
+
+.about__main2-title {
+    color: var(--text-color);
+    text-align: center;
+}
+
+.about__main2-img img {
+    padding: 8px 8px 8px 24px;
+    width: 100%;
+    /* width: 400px; */
+    height: 100%;
+}
+
+.col.about__main2-img {
+    padding: 0;
+}
+
+.about__main2-content {
+    padding: 0 32px 0 24px;
+}
+
+.about__main2-content-sub {
+    color: var(--text-color);
+
+}
+
+.about__main2-content-sub:first-child {
+    padding-top: 0;
+}
+
+.about__main2-btn {
+    width: 200px;
+    margin: 32px auto 0;
+    padding: 14px 24px;
+    text-transform: uppercase;
+    border: none;
+    background-color: var(--text-color);
+    border-radius: 3px;
+    color: #ae9cdb;
+    cursor: pointer;
+}
+
+.about__main2-btn:hover {
+    background-color: #ae9cdb;
+    color: var(--text-color);
+}
+
+/* main 3 */
+.about__main3 {
+    margin-top: 60px;
+    color: #444;
+}
+
+.about__main3-title {
+    color: #444;
+    text-align: center;
+}
+
+.about__main3-sub {
+    color: #444;
+    font-size: 2.2rem;
+    text-align: center;
+    font-weight: 300;
+
+}
+
+.about__main3-content {
+    padding: 36px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.about-plus {
+    /* display: none; */
+    position: relative;
+    /* width: 300px; */
+    /* height: 250px; */
+}
+
+.about-img-page {
+    width: 100%;
+    /* width: 300px; */
+    height: 250px;
+}
+
+.about-name {
+    position: absolute;
+    top: 12px;
+    left: 120px;
+}
+
+
+.about-plus-input {
+    position: absolute;
+    font-size: 2rem;
+    font-weight: 300px;
+    left: 30px;
+    bottom: 26px;
+    padding: 2px 3px;
+    border: 2px solid #444;
+    border-radius: 50%;
+}
+
+.about-minus {
+    display: none;
+    position: relative;
+    width: 300px;
+    height: 250px;
+    background-color: #444;
+    color: var(--text-color);
+    padding: 24px;
+}
+
+.about-main3-title {
+    font-size: 2rem;
+    padding-bottom: 12px;
+
+}
+
+.about-main3-sub {
+    font-size: 1.6rem;
+    line-height: 2.2rem;
+}
+
+.about-minus-input {
+    position: absolute;
+    font-size: 2rem;
+    font-weight: 300px;
+    left: 24px;
+    bottom: 26px;
+    padding: 2px 3px;
+    border: 2px solid var(--text-color);
+    border-radius: 50%;
+}

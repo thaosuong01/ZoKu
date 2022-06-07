@@ -9,7 +9,7 @@
 }
 
 body {
-    overflow-x:hidden;
+    overflow-x: hidden;
 }
 
 html {
@@ -19,4 +19,3 @@ html {
     box-sizing: border-box;
     background-color: #fefefe;
 }
-

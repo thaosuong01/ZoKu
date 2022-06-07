@@ -65,23 +65,18 @@
     margin: 0 36px;
 }
 
-.icon-search {
+.icon-search {}
 
-}
+.header__icon-cart {}
 
-.header__icon-cart {
-
-}
-
-.icon-cart {
-
-}
+.icon-cart {}
 
 /* container */
 
-.container {
+/* .container {
+    padding-top: 40px;
     height: 1000px;
-}
+} */
 
 
 /* Footer */
@@ -92,10 +87,10 @@
     justify-content: space-between;
     padding: 24px;
     color: var(--text-color);
+
 }
 
-.footer__contact {
-}
+.footer__contact {}
 
 .footer__contact-copy {
     display: flex;
@@ -141,18 +136,14 @@
     padding: 0 1px;
 }
 
-.footer__company {
-
-}
+.footer__company {}
 
 .footer__title {
     font-size: 2rem;
     margin: 0;
 }
 
-.footer__content {
-
-}
+.footer__content {}
 
 .footer__content-list {
     padding: 0;
@@ -164,7 +155,8 @@
 .footer__content-sub {
     padding: 4px 0;
 }
-.footer__content-sub span{
+
+.footer__content-sub span {
     color: var(--text-color);
     font-size: 1.6rem;
     line-height: 1.6rem;
@@ -199,11 +191,13 @@
     padding: 8px;
     outline: none;
 }
-.footer__sign-up-input::placeholder{
+
+.footer__sign-up-input::placeholder {
     color: var(--text-color);
     font-size: 1.6rem;
 }
-.footer__sign-up-sendletter{
+
+.footer__sign-up-sendletter {
     cursor: pointer;
     border: none;
     padding: 8px 12px;
@@ -212,6 +206,7 @@
     background-color: var(--text-color);
 
 }
+
 .footer__sign-up-btn i {
     font-size: 2rem;
     color: var(--primary-color);
@@ -251,4 +246,3 @@
     border-top-right-radius: 2px;
     box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
 }
-

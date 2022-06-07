@@ -33,6 +33,9 @@
      border-bottom-left-radius: 5px;
  }
 
+ .btn.shop__sort-link {
+     transition: all .3s linear;
+ }
 
  .btn.shop__sort-link:hover {
      background-color: var(--primary-color);

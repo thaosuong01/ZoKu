@@ -9,19 +9,24 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
         integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <title>nomz</title>
+
+    <title>Account</title>
     <link rel="stylesheet" href="./assets/css/base.css">
     <link rel="stylesheet" href="./assets/css/grid.css">
     <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/css/account.css">
+
 </head>
 
 <body>
     <div class="app">
         <header class="header">
             <div class="header__logo">
+
                 <a href="index.html">
                     <img src="./assets/img/logo.webp" alt="" class="header__logo-img">
                 </a>
+
             </div>
 
             <div class="header__navbar">
@@ -68,7 +73,39 @@
             </div>
         </header>
 
+        <div class="account">
+            <div class="grid">
+                <div class="row">
+                    <div class="col l-6 account__signin">
+                        <h1 class="account__title">Sign in</h1>
+                        <span class="account__sub">or use your email for registration</span>
+                        <form action="">
+                            <input type="email" class="account__signin-form" required placeholder="Email...">
+                            <input type="password" class="account__signin-form" required placeholder="Password...">
+                        </form>
+                        <a href="" class="account__signin-link">Forgot your password?</a>
+                        <button type="submit" class="btn-sign btn-signin">Sign in</button>
+                        <div class="account__lastpage">
+                            <span class="account__sub">Looking to login to the wholesale portal?</span>
+                            <a href="" class="account__signin-link">Click here</a>
+                        </div>
+                    </div>
+                    <div class="col l-6 account__signup">
+                        <h1 class="account__title">Hello, Friend!</h1>
+                        <span class="account__sub account__sub-signup">Enter your personal details and start your
+                            journey with
+                            us to access your
+                            subscription login and nomz rewards points</span>
+                        <button type="submit" class="btn-sign btn-signup">Sign up</button>
+
+
+                    </div>
+                </div>
+            </div>
+
+
         <div class="container">
+
 
         </div>
 
@@ -180,10 +217,13 @@
             <button class="end-of-page">
                 <img class="end-of-page__favourite" src="./assets/img/bag.png" alt="">
                 <span class="end-of-page__sale">10% Off</span>
-                
+
+
             </button>
         </footer>
-        
+
+
+
     </div>
 </body>
 

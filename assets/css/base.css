@@ -1,7 +1,9 @@
 :root {
     --primary-color: #6cace4;
     --text-color: #fff;
+
     --color: #585e68;
+
 }
 
 * {
@@ -10,7 +12,9 @@
 }
 
 body {
-    overflow-x:hidden;
+
+    overflow-x: hidden;
+
 }
 
 html {
@@ -20,5 +24,4 @@ html {
     box-sizing: border-box;
     background-color: #fefefe;
 }
-
 

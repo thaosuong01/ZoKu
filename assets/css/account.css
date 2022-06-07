@@ -1,0 +1,121 @@
+.account {
+    display: flex;
+    margin: 36px 0;
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 7px 29px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+}
+
+.account__signin {
+    background-color: var(--text-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px 0 0 10px;
+}
+
+.account__title {
+    font-size: 3rem;
+    height: 3rem;
+    line-height: 3rem;
+    margin: 24px 0 12px;
+}
+
+.account__sub {
+    font-size: 1.8rem;
+    line-height: 1.8rem;
+    padding-top: 24px;
+    font-weight: 200;
+    color: #444;
+}
+
+.btn-sign {
+    display: block;
+    width: 150px;
+    padding: 10px 24px;
+    border: none;
+    cursor: pointer;
+    margin-top: 24px;
+}
+
+.btn-signin {
+    border: 1px solid var(--primary-color);
+    background-color: var(--text-color);
+    color: #444;
+    font-size: 1.8rem;
+}
+
+.btn-signin:hover {
+    background-color: var(--primary-color);
+    color: var(--text-color);
+}
+
+.account__signin-form {
+    display: block;
+    width: 300px;
+    padding: 10px 14px;
+    margin-top: 24px;
+    outline: none;
+}
+
+.account__signin-form::placeholder {
+    color: #444;
+    font-size: 1.6rem;
+    line-height: 1.6rem;
+
+}
+
+.account__lastpage {
+    font-style: italic;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 24px 0 24px;
+}
+
+
+.account__signin-link {
+    font-size: 1.8rem;
+    line-height: 1.8rem;
+    padding: 12px 0 0;
+    font-weight: 200;
+    text-decoration: none;
+    color: #444;
+}
+
+.account__signup {
+    background-color: var(--primary-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: var(--text-color);
+    padding: 0 50px;
+    border-radius: 0 10px 10px 0;
+
+}
+
+.account__sub-signup {
+    color: var(--text-color) !important;
+    line-height: 3rem;
+    font-weight: 300;
+    text-align: center;
+
+}
+
+.btn-signup {
+    border: 1px solid var(--text-color);
+    background-color: var(--primary-color);
+    color: var(--text-color);
+    margin-top: 40px;
+    font-size: 1.8rem;
+
+}
+
+.btn-signup:hover {
+    background-color: var(--text-color);
+    color: var(--primary-color);
+}

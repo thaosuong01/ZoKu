@@ -1,18 +1,29 @@
 .header {
+<<<<<<< HEAD
+=======
+
+>>>>>>> master
     width: 100%;
 }
 
 .header__nav {
+<<<<<<< HEAD
+=======
+
+>>>>>>> master
     height: 80px;
     background-color: var(--primary-color);
     display: flex;
     justify-content: space-between;
     align-items: center;
+<<<<<<< HEAD
     position: fixed;
     top: 0;
     right: 0;
     left: 0;
     z-index: 99999;
+=======
+>>>>>>> master
 
 }
 
@@ -96,6 +107,7 @@ main {
 .footer {
     height: 220px;
 }
+<<<<<<< HEAD
 
 .icon-search {}
 
@@ -104,6 +116,22 @@ main {
 .icon-cart {}
 
 .header__content {}
+=======
+.icon-search {
+
+}
+
+.header__icon-cart {
+
+}
+
+.icon-cart {
+
+}
+
+.header__content {
+}
+>>>>>>> master
 
 .header__content-img {
     height: 745px;
@@ -142,7 +170,11 @@ main {
     padding: 24px;
     font-weight: 500;
     letter-spacing: 5px;
+<<<<<<< HEAD
 
+=======
+    
+>>>>>>> master
 }
 
 .header__content-btn {
@@ -203,13 +235,22 @@ main {
 }
 
 /* best-sellers */
+<<<<<<< HEAD
 .best-sellers {}
+=======
+.best-sellers {
+}
+>>>>>>> master
 
 .best-sellers__title {
     margin-top: 120px;
     text-align: center;
     color: var(--color);
+<<<<<<< HEAD
     font-size: 2.4rem;
+=======
+    font-size: 2.4rem; 
+>>>>>>> master
     margin-bottom: 70px;
 }
 
@@ -225,7 +266,11 @@ main {
     margin: 16px 0;
 }
 
+<<<<<<< HEAD
 .product__img img {
+=======
+.product__img img{
+>>>>>>> master
     width: 275px;
     height: 330px;
 }
@@ -287,7 +332,11 @@ main {
 
 .customer-reviews__title {
     color: var(--color);
+<<<<<<< HEAD
     font-size: 2.4rem;
+=======
+    font-size: 2.4rem; 
+>>>>>>> master
 }
 
 .review {
@@ -318,7 +367,12 @@ main {
     justify-content: space-around;
 }
 
+<<<<<<< HEAD
 .customer-reviews__main {}
+=======
+.customer-reviews__main {
+}
+>>>>>>> master
 
 .customer-reviews__review {
     display: flex;
@@ -350,7 +404,13 @@ main {
     margin-right: 50px;
 }
 
+<<<<<<< HEAD
 .customer-reviews__product {}
+=======
+.customer-reviews__product {
+    
+}
+>>>>>>> master
 
 .customer-reviews__img {
     margin-right: 12px;
@@ -371,7 +431,13 @@ main {
     margin-right: 5px;
 }
 
+<<<<<<< HEAD
 .customer-reviews__desc {}
+=======
+.customer-reviews__desc {
+
+}
+>>>>>>> master
 
 .customer-reviews__desc-description {
     font-size: 1.4rem;
@@ -393,7 +459,13 @@ main {
 }
 
 /* energy-bites */
+<<<<<<< HEAD
 .energy-bites {}
+=======
+.energy-bites {
+    
+}
+>>>>>>> master
 
 .energy-bites__title {
     margin-top: 120px;
@@ -404,7 +476,12 @@ main {
 }
 
 /* nut-butters */
+<<<<<<< HEAD
 .nut-butters {}
+=======
+.nut-butters {
+}
+>>>>>>> master
 
 .nut-butters__title {
     margin-top: 120px;
@@ -424,13 +501,21 @@ main {
     margin: 16px 0;
 }
 
+<<<<<<< HEAD
 .nut-butters .product__img img {
+=======
+.nut-butters .product__img img{
+>>>>>>> master
     width: 210px;
     height: 255px;
 }
 
 .nut-butters .product__name {
+<<<<<<< HEAD
 
+=======
+    
+>>>>>>> master
     font-size: 1.8rem;
     font-weight: 600;
     line-height: 1.8rem;
@@ -473,7 +558,13 @@ main {
     color: var(--text-color);
 }
 
+<<<<<<< HEAD
 .nomz {}
+=======
+.nomz {
+
+}
+>>>>>>> master
 
 .nomz__title {
     margin-top: 120px;
@@ -502,12 +593,23 @@ main {
     margin-right: 40px;
 }
 
+<<<<<<< HEAD
 .nomz__img-link {}
 
 .nomz__img-link img {
     width: 300px;
     height: 300px;
 
+=======
+.nomz__img-link {
+
+}
+
+.nomz__img-link img{
+    width: 300px;
+    height: 300px;
+    
+>>>>>>> master
 }
 
 /* satisfaction */
@@ -521,7 +623,11 @@ main {
     background-image: url(../img/trangchu/satic.webp);
     background-size: cover;
     position: relative;
+<<<<<<< HEAD
 
+=======
+    
+>>>>>>> master
 }
 
 .satisfaction__text {
@@ -550,7 +656,13 @@ main {
     text-align: center;
 }
 
+<<<<<<< HEAD
 .sign-up__text {}
+=======
+.sign-up__text {
+    
+}
+>>>>>>> master
 
 .sign-up__title {
     margin-top: 50px;
@@ -683,7 +795,11 @@ main {
     padding: 4px 0;
 }
 
+<<<<<<< HEAD
 .footer__content-sub span {
+=======
+.footer__content-sub span{
+>>>>>>> master
 
     color: var(--text-color);
     font-size: 1.6rem;
@@ -722,13 +838,17 @@ main {
     outline: none;
 }
 
-.footer__sign-up-input::placeholder {
+.footer__sign-up-input::placeholder{
     color: var(--text-color);
     font-size: 1.6rem;
 }
+.footer__sign-up-sendletter{
 
+<<<<<<< HEAD
 .footer__sign-up-sendletter {
 
+=======
+>>>>>>> master
     cursor: pointer;
     border: none;
     padding: 8px 12px;
@@ -777,4 +897,9 @@ main {
     border-top-right-radius: 2px;
     box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
 
+<<<<<<< HEAD
 }
+=======
+}
+
+>>>>>>> master

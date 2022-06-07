@@ -1,0 +1,244 @@
+.header__background {
+    height: 480px;
+    width: 100%;
+    background-image: url(https://cdn.shopify.com/s/files/1/0857/4434/files/Bites_assorted_3000x.jpg?v=1651774619);
+    background-size: cover;
+    display: flex;
+}
+
+.header__background-text {
+    margin: 145px 0 0 95px;
+}
+
+.header__title {
+    color: var(--color);
+    font-size: 6.8rem;
+    line-height: 7rem;
+    margin-bottom: 40px;
+    width: 800px;
+}
+
+.header__btn {
+    border: none;
+    border-radius: 2px;
+    text-decoration: none;
+    color: var(--primary-color);
+    font-weight: 600;
+    font-size: 2.4rem;
+    background-color: #fff;
+    padding: 8px 24px;
+}
+
+.header__btn:hover {
+    background-color: var(--primary-color);
+    color: #fff;
+}
+
+/* container  */
+
+/* benefit  */
+.the-benefits {
+
+}
+
+.the-benefits__title {
+    color: var(--color);
+    font-size: 2.4rem;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.the-benefits__list {
+    display: flex;
+    justify-content: center;
+    margin: 20px 85px;
+}
+
+.the-benefits__col {
+    width: 245px;
+    background-color: #fff;
+    box-shadow: 0 2px 8px #63636333;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 35px 10px;
+    margin: 0 10px;
+}
+
+.the-benefits__icon {
+
+}
+
+.the-benefits__icon img {
+    width: 80px;
+    height: 80px;
+}
+
+.the-benefits__text {
+    font-size: 1.6rem;
+    color: var(--color);
+    line-height: 2rem;
+    text-align: center;
+    padding: 0 10px;
+}
+
+/* product */
+.our-products {
+    text-align: center;
+
+}
+
+.our-products__text {
+}
+
+.our-products__title {
+    margin-top: 100px;
+    color: var(--color);
+    font-size: 2.4rem;
+    margin-bottom: 24px;
+}
+
+.our-products__desc {
+    color: var(--color);
+    font-size: 1.6rem;
+    line-height: 2.6rem;
+    margin-bottom: 45px;
+}
+
+.our-products__img {
+    margin-bottom: 110px;
+}
+
+.our-products__img img{
+    width: 130px;
+    height: 130px;
+    margin-left: 25px;
+}
+
+.our-products__container {
+    display: flex;
+    justify-content: center;
+    margin: 0 12px;
+}
+
+.our-products__content {
+    width: 295px;
+    height: 400px;
+    background-size: cover;
+    margin: 8px;
+    border: 1px solid #63636333;
+    border-radius: 2px;
+    box-shadow: 0 2px 8px #63636333;
+    position: relative;
+
+}
+
+.our-products__content:nth-child(1){
+    background-image: url(https://cdn.shopify.com/s/files/1/0857/4434/files/857A0925-sm-2_1200x.jpg?v=1651774700);
+}
+
+.our-products__content:nth-child(2) {
+    background-image: url(https://cdn.shopify.com/s/files/1/0857/4434/files/Beeswax-Candle-4_1200x.jpg?v=1651773701);
+}
+
+.our-products__content:nth-child(3) {
+    background-image: url(https://cdn.shopify.com/s/files/1/0857/4434/files/857A1434-Edit_1200x.jpg?v=1651774764);
+}
+
+.our-products__content:nth-child(4) {
+    background-image: url(https://cdn.shopify.com/s/files/1/0857/4434/files/857A0780-Edit_1200x.jpg?v=1651774886);
+}
+
+.our-products__background {
+    
+    
+}
+
+.our-products__content-title {
+    font-size: 2rem;
+    font-weight: 600;
+    line-height: 2.2rem;
+    color: var(--text-color);
+    margin-top: 100%;
+}
+
+/* stockist-community */
+.stockist-community {
+
+}
+
+.stockist-community__text {
+    text-align: center;
+}
+
+.stockist-community__title {
+    margin-top: 100px;
+    color: var(--color);
+    font-size: 2.4rem;
+    margin-bottom: 20px;
+}
+
+.stockist-community__desc {
+    color: var(--color);
+    font-size: 1.6rem;
+    line-height: 2.6rem;
+    margin-bottom: 45px;
+}
+
+.stockist-community__flex {
+    display: flex;
+    justify-content: center;
+}
+
+.stockist-community__logo {
+
+}
+
+.stockist-community__img {
+    margin: 10px 30px;
+}
+
+/* write-to-us */
+.write-to-us {
+    text-align: center;
+}
+
+.write-to-us__title {
+    margin-top: 100px;
+    color: var(--color);
+    font-size: 2.4rem;
+    margin-bottom: 40px;
+}
+
+.write-to-us__btn {
+    width: 300px;
+    background-color: #fff;
+    box-shadow: 0 2px 8px #63636333;
+    border: 1px;
+}
+
+.write-to-us__icon {
+    color: #745ead;
+    font-size: 2.6rem;
+    margin: 20px 0;
+}
+
+.write-to-us__desc {
+    color: var(--color);
+    font-size: 2rem;
+    line-height: 2rem;
+    margin: 8px;
+}
+
+.write-to-us__link {
+    margin-bottom: 20px;
+}
+
+.write-to-us__link a {
+    color: var(--color);
+    font-size: 1.6rem;
+    line-height: 2.6rem;
+}
+

@@ -1,9 +1,14 @@
 .header {
+    width: 100%;
+}
+
+.header__nav {
     height: 80px;
     background-color: var(--primary-color);
     display: flex;
     justify-content: space-between;
     align-items: center;
+    /* display: none; */
 }
 
 .header__logo {
@@ -77,16 +82,524 @@
 
 }
 
-/* container */
-
-.container {
-    height: 1000px;
+.header__content {
 }
+
+.header__content-img {
+    height: 745px;
+    width: 100%;
+    background-image: url(../img/trangchu/header.webp);
+    background-size: cover;
+    display: flex;
+}
+
+/* .header__content-video {
+    height: 745px;
+    width: 100%;
+    background-size: cover;
+    display: flex;
+} */
+
+.header__content-text {
+    text-align: center;
+    margin: auto;
+    cursor: text;
+}
+
+.header__content-sologan {
+    color: var(--text-color);
+    font-size: 7rem;
+    line-height: 7rem;
+    font-weight: 600;
+    letter-spacing: 3px;
+}
+
+.header__content-desc {
+    color: var(--text-color);
+    text-transform: uppercase;
+    font-size: 3.6rem;
+    line-height: 4rem;
+    padding: 24px;
+    font-weight: 500;
+    letter-spacing: 5px;
+    
+}
+
+.header__content-btn {
+    background-color: #fff;
+    border: none;
+    border-radius: 2px;
+    padding: 8px 24px;
+    font-size: 2.6rem;
+    font-weight: 600;
+    color: var(--primary-color);
+}
+
+.header__content-btn:hover {
+    background-color: var(--primary-color);
+    color: var(--text-color);
+    cursor: pointer;
+}
+
+/* container */
+.container {
+    margin-top: 80px;
+}
+
+/* naturally-delicious */
+.naturally-delicious {
+    text-align: center;
+    margin: auto;
+}
+
+.naturally-delicious__text {
+    margin: 0 auto;
+}
+
+.naturally-delicious__title {
+    color: var(--color);
+    font-size: 2.4rem;
+    margin-bottom: 35px;
+}
+
+.naturally-delicious__desc {
+    color: var(--color);
+    font-size: 1.6rem;
+    line-height: 2.6rem;
+}
+
+.naturally-delicious__img {
+    margin-top: 45px;
+}
+
+.naturally__img {
+    width: 130px;
+    height: 130px;
+    margin-left: 25px;
+}
+
+.naturally__img:first-child {
+    margin-left: 0px;
+}
+
+/* best-sellers */
+.best-sellers {
+}
+
+.best-sellers__title {
+    margin-top: 120px;
+    text-align: center;
+    color: var(--color);
+    font-size: 2.4rem; 
+    margin-bottom: 70px;
+}
+
+.product__list {
+    /* display: flex;
+    justify-content: space-around; */
+    margin: 0 auto;
+    cursor: pointer;
+}
+
+.product__info {
+    color: var(--color);
+    margin: 16px 0;
+}
+
+.product__img img{
+    width: 275px;
+    height: 330px;
+}
+
+.product__name {
+    font-size: 1.8rem;
+    font-weight: 600;
+    line-height: 1.8rem;
+    margin: 10px 0 20px;
+}
+
+.product__price {
+    line-height: 1.8rem;
+    font-size: 1.8rem;
+}
+
+.product__flex {
+    display: flex;
+    margin: 20px 0;
+}
+
+.product__star {
+    font-size: 1.4rem;
+    line-height: 1.6rem;
+    color: #f2bc47;
+    margin-right: 50px;
+}
+
+.product__reviews {
+    font-size: 1.6rem;
+    line-height: 1.6rem;
+}
+
+.product__btn {
+    width: 275px;
+    padding: 12px;
+    border: 1px solid var(--primary-color);
+    color: var(--primary-color);
+    background-color: #fff;
+}
+
+.product__btn:hover {
+    background-color: var(--primary-color);
+    color: var(--text-color);
+    cursor: pointer;
+}
+
+/* customer-reviews */
+.customer-reviews {
+    margin: 120px 35px 0;
+}
+
+.customer-reviews__header {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 20px;
+    border-bottom: 2px solid rgb(176, 175, 175);
+}
+
+.customer-reviews__title {
+    color: var(--color);
+    font-size: 2.4rem; 
+}
+
+.review {
+    display: flex;
+}
+
+.review__star {
+    color: #f2bc47;
+    font-size: 1.6rem;
+    margin-right: 10px;
+}
+
+.review__reviews {
+    font-size: 1.6rem;
+    color: #969598;
+    margin-right: 20px;
+}
+
+.review__icon {
+    color: #6e737b;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+.customer-reviews__container {
+    padding-top: 25px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.customer-reviews__main {
+}
+
+.customer-reviews__review {
+    display: flex;
+}
+
+.customer-reviews__star {
+    color: #f2bc47;
+    font-size: 2.2rem;
+}
+
+.customer-reviews__day {
+    color: #969598;
+    font-size: 1.4rem;
+    font-style: italic;
+    margin-top: 5px;
+    margin-left: 16px;
+}
+
+.customer-reviews__title-main {
+    color: var(--color);
+    font-size: 2rem;
+    line-height: 2rem;
+    margin: 10px 0;
+
+}
+
+.customer-reviews__content {
+    display: flex;
+    margin-right: 50px;
+}
+
+.customer-reviews__product {
+    
+}
+
+.customer-reviews__img {
+    margin-right: 12px;
+    justify-content: center;
+}
+
+.reviews__img {
+    width: 88px;
+    height: 88px;
+    padding: 0 4px;
+    border: 1px solid #aeadaf;
+    border-radius: 2px;
+}
+
+.customer-reviews__name {
+    color: #b6b5b8;
+    line-height: 1rem;
+    margin-right: 5px;
+}
+
+.customer-reviews__desc {
+
+}
+
+.customer-reviews__desc-description {
+    font-size: 1.4rem;
+    color: #969598;
+    font-style: italic;
+    line-height: 1.5rem;
+}
+
+.read-more {
+    color: var(--primary-color);
+}
+
+.customer-reviews__desc-assessor {
+    margin-top: 6px;
+    color: #666;
+    font-size: 1.4rem;
+    font-style: italic;
+    font-weight: 600;
+}
+
+/* energy-bites */
+.energy-bites {
+    
+}
+
+.energy-bites__title {
+    margin-top: 120px;
+    text-align: center;
+    color: var(--color);
+    margin-bottom: 60px;
+    font-size: 2.4rem;
+}
+
+/* nut-butters */
+.nut-butters {
+}
+
+.nut-butters__title {
+    margin-top: 120px;
+    text-align: center;
+    color: var(--color);
+    margin-bottom: 60px;
+    font-size: 2.4rem;
+}
+
+.nut-butters .product__list {
+    margin: 0 auto;
+    cursor: pointer;
+}
+
+.nut-butters .product__info {
+    color: var(--color);
+    margin: 16px 0;
+}
+
+.nut-butters .product__img img{
+    width: 210px;
+    height: 255px;
+}
+
+.nut-butters .product__name {
+    
+    font-size: 1.8rem;
+    font-weight: 600;
+    line-height: 1.8rem;
+    margin: 10px 0 20px;
+}
+
+
+.nut-butters .product__price {
+    line-height: 1.8rem;
+    font-size: 1.8rem;
+}
+
+.nut-butters .product__flex {
+    display: flex;
+    margin: 20px 0;
+}
+
+.nut-butters .product__star {
+    font-size: 1.4rem;
+    line-height: 1.6rem;
+    color: #f2bc47;
+    margin-right: 20px;
+}
+
+.nut-butters .product__reviews {
+    font-size: 1.6rem;
+    line-height: 1.6rem;
+}
+
+.nut-butters .product__btn {
+    width: 210px;
+    padding: 12px;
+    border: 1px solid var(--primary-color);
+    color: var(--primary-color);
+    background-color: #fff;
+}
+
+.nut-butters .product__btn:hover {
+    background-color: var(--primary-color);
+    color: var(--text-color);
+}
+
+.nomz {
+
+}
+
+.nomz__title {
+    margin-top: 120px;
+    margin-bottom: 50px;
+    font-size: 4rem;
+    color: var(--color);
+}
+
+.nomz__slider {
+    display: flex;
+    list-style: none;
+    padding-left: 0;
+    max-width: 100%;
+    overflow-x: auto;
+}
+
+/* .nomz__slider::-webkit-scrollbar {
+    display: none;
+} */
+
+
+.nomz__img {
+    border-radius: 2px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.1);
+    flex-shrink: 0;
+    margin-right: 40px;
+}
+
+.nomz__img-link {
+
+}
+
+.nomz__img-link img{
+    width: 300px;
+    height: 300px;
+    
+}
+
+/* satisfaction */
+.satisfaction {
+    margin-top: 90px;
+}
+
+.satisfaction__background {
+    height: 340px;
+    width: 100%;
+    background-image: url(../img/trangchu/satic.webp);
+    background-size: cover;
+    position: relative;
+    
+}
+
+.satisfaction__text {
+    align-items: center;
+    margin-top: 80px;
+    position: absolute;
+    padding-left: 90px;
+}
+
+.satisfaction__title {
+    color: var(--color);
+    font-size: 2.4rem;
+    padding-bottom: 24px;
+}
+
+.satisfaction__desc {
+    color: var(--color);
+    font-size: 1.6rem;
+    width: 400px;
+    line-height: 2rem;
+    padding: 12px 0;
+}
+
+/* sign-up */
+.sign-up {
+    text-align: center;
+}
+
+.sign-up__text {
+    
+}
+
+.sign-up__title {
+    margin-top: 50px;
+    color: var(--color);
+    font-size: 2.4rem;
+    padding-bottom: 30px;
+}
+
+.sign-up__desc {
+    color: var(--color);
+    font-size: 1.6rem;
+    line-height: 2rem;
+    margin-bottom: 30px;
+}
+
+
+.sign-up__send {
+    margin: 0 445px;
+    display: flex;
+}
+
+/* .flex {
+    display: flex;
+} */
+
+.sign-up__input {
+    padding: 12px 16px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    width: 215px;
+}
+
+
+.sign-up__input::placeholder {
+    color: #444;
+}
+
+.sign-up__btn {
+    background-color: var(--primary-color);
+    color: var(--text-color);
+    font-weight: 600;
+    border: none;
+    font-size: 1.8rem;
+    border: 1px solid var(--primary-color);
+    padding: 10px 24px;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+    margin-left: -10px;
+}
+
 
 
 /* Footer */
 .footer {
-    height: 220px;
+    margin-top: 60px;
     background-color: var(--primary-color);
     display: flex;
     justify-content: space-between;
@@ -178,7 +691,7 @@
 }
 
 .footer__sign-up {
-    /* margin-left: -40px; */
+    margin-right: -85px;
 }
 
 .footer__sign-up-btn {

@@ -18,56 +18,863 @@
 <body>
     <div class="app">
         <header class="header">
-            <div class="header__logo">
-                <img src="./assets/img/logo.webp" alt="" class="header__logo-img">
-            </div>
-
-            <div class="header__navbar">
-                <ul class="header__navbar-list">
-                    <li class="header__navbar-item">
-                        <a href="shop.html" class="header__navbar-item-link">Shop</a>
-                        <i class="header__navbar-icon fas fa-chevron-down"></i>
-                        <ul class="header__navbar-shop">
-                            <li class="header__navbar-shop-item">Our Products +</li>
-                            <li class="header__navbar-shop-item">Shop By Flavour +</li>
-                        </ul>
-
-                    </li>
-                    <li class="header__navbar-item">
-                        <a href="about.html" class="header__navbar-item-link">About Us</a>
-                        <i class="header__navbar-icon fas fa-chevron-down"></i>
-                        <ul class="header__navbar-about">
-                            <li class="header__navbar-about-item">Grant</li>
-                            <li class="header__navbar-about-item">Faq</li>
-                            <li class="header__navbar-about-item">Blog</li>
-                            <li class="header__navbar-about-item">Rewards</li>
-                        </ul>
-                    </li>
-                    <li class="header__navbar-item">
-                        <a href="story.html" class="header__navbar-item-link">Our Story</a>
-                    </li>
-                    <li class="header__navbar-item">
-                        <a href="wholesale.html" class="header__navbar-item-link">WholeSale</a>
-                    </li>
-                    <li class="header__navbar-item">
-                        <a href="account.html" class="header__navbar-item-link">Account</a>
-                    </li>
-                </ul>
-            </div>
-
-            <div class="header__icon">
-                <div class="header__icon-search">
-                    <i class="icon-search fas fa-search"></i>
+            <div class="header__nav">
+                <div class="header__logo">
+                    <a href="index.html">
+                        <img src="./assets/img/logo.webp" alt="" class="header__logo-img">
+                    </a>
                 </div>
 
-                <div class="header__icon-cart">
-                    <i class="icon-cart fas fa-shopping-cart"></i>
+                <div class="header__navbar">
+                    <ul class="header__navbar-list">
+                        <li class="header__navbar-item">
+                            <a href="shop.html" class="header__navbar-item-link">Shop</a>
+                            <i class="header__navbar-icon fas fa-chevron-down"></i>
+                            <ul class="header__navbar-shop">
+                                <li class="header__navbar-shop-item">Our Products +</li>
+                                <li class="header__navbar-shop-item">Shop By Flavour +</li>
+                            </ul>
+
+                        </li>
+                        <li class="header__navbar-item">
+                            <a href="about.html" class="header__navbar-item-link">About Us</a>
+                            <i class="header__navbar-icon fas fa-chevron-down"></i>
+                            <ul class="header__navbar-about">
+                                <li class="header__navbar-about-item">Grant</li>
+                                <li class="header__navbar-about-item">Faq</li>
+                                <li class="header__navbar-about-item">Blog</li>
+                                <li class="header__navbar-about-item">Rewards</li>
+                            </ul>
+                        </li>
+                        <li class="header__navbar-item">
+                            <a href="story.html" class="header__navbar-item-link">Our Story</a>
+                        </li>
+                        <li class="header__navbar-item">
+                            <a href="wholesale.html" class="header__navbar-item-link">WholeSale</a>
+                        </li>
+                        <li class="header__navbar-item">
+                            <a href="account.html" class="header__navbar-item-link">Account</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="header__icon">
+                    <div class="header__icon-search">
+                        <i class="icon-search fas fa-search"></i>
+                    </div>
+
+                    <div class="header__icon-cart">
+                        <i class="icon-cart fas fa-shopping-cart"></i>
+                    </div>
                 </div>
             </div>
+            <div class="header__content">
+                <div class="header__content-img">
+                    <!-- <div class="header__content-video">
+                        <video src="https://cdn.shopify.com/s/files/1/0857/4434/files/nomz_homepage.mp4?v=1640190006" controls></video>
+                    </div> -->
+                    <div class="header__content-text">
+                        <h1 class="header__content-sologan">
+                            treat your body
+                        </h1>
+                        <h3 class="header__content-desc">
+                            organic, vegan & paleo snacks
+                        </h3>
+                        <button class="header__content-btn">
+                            Shop now
+                        </button>
+                    </div>
+
+                </div>
+
+                
+
+            </div>
+
         </header>
 
         <div class="container">
+            <div class="naturally-delicious">
+                <div class="naturally-delicious__text">
+                    <h2 class="naturally-delicious__title">Naturally Delicious</h2>
+                    <p class="naturally-delicious__desc">All of our products are certified organic, vegan, gluten-free
+                        and have no <br> refined sugars</p>
+                </div>
+                <div class="naturally-delicious__img">
+                    <img class="naturally__img" src="./assets/img/trangchu/l1.png" alt="">
+                    <img class="naturally__img" src="./assets/img/trangchu/l2.png" alt="">
+                    <img class="naturally__img" src="./assets/img/trangchu/l3.png" alt="">
+                    <img class="naturally__img" src="./assets/img/trangchu/l4.png" alt="">
+                </div>
+            </div>
 
+            <div class="best-sellers grid wide">
+                <h2 class="best-sellers__title">Best Sellers</h2>
+
+                <div class="product__list row">
+                    <div class="product__info col l-3">
+                        <div class="product__img">
+                            <img src="./assets/img/trangchu/bestseller1.webp" alt="">
+                        </div>
+
+                        <div class="product__name">
+                            energy bites assorted box
+                        </div>
+
+                        <div class="product__price">
+                            from $ 36.000 CAD
+                        </div>
+
+                        <div class="product__flex">
+                            <div class="product__star">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+
+                            <div class="product__reviews">
+                                95 reviews
+                            </div>
+                        </div>
+
+                        <button class="product__btn">
+                            View product
+                        </button>
+                    </div>
+
+                    <div class="product__info col l-3">
+                        <div class="product__img">
+                            <img src="./assets/img/trangchu/bestseller2.webp" alt="">
+                        </div>
+
+                        <div class="product__name">
+                            daily nourish superfood mix
+                        </div>
+
+                        <div class="product__price">
+                            $ 68.000 CAD
+                        </div>
+
+                        <div class="product__flex">
+                            <div class="product__star">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+
+                            <div class="product__reviews">
+                                16 reviews
+                            </div>
+                        </div>
+
+                        <button class="product__btn">
+                            View product
+                        </button>
+                    </div>
+
+                    <div class="product__info col l-3">
+                        <div class="product__img">
+                            <img src="./assets/img/trangchu/bestseller3.webp" alt="">
+                        </div>
+
+                        <div class="product__name">
+                            ultimate variety pack
+                        </div>
+
+                        <div class="product__price">
+                            $ 140.000 CAD
+                        </div>
+
+                        <div class="product__flex">
+                            <div class="product__star">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+
+                            <div class="product__reviews">
+                                157 reviews
+                            </div>
+                        </div>
+
+                        <button class="product__btn">
+                            View product
+                        </button>
+                    </div>
+
+                    <div class="product__info col l-3">
+                        <div class="product__img">
+                            <img src="./assets/img/trangchu/bestseller4.webp" alt="">
+                        </div>
+
+                        <div class="product__name">
+                            nomzicles - 12 pack
+                        </div>
+
+                        <div class="product__price">
+                            $ 48.000 CAD
+                        </div>
+
+                        <div class="product__flex">
+                            <div class="product__star">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+
+                            <div class="product__reviews">
+                                13 reviews
+                            </div>
+                        </div>
+
+                        <button class="product__btn">
+                            View product
+                        </button>
+                    </div>
+                </div>
+
+
+            </div>
+
+            <div class="customer-reviews">
+                <div class="customer-reviews__header">
+                    <h1 class="customer-reviews__title">Customner Reviews</h1>
+                    <div class="review">
+                        <div class="review__star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <div class="review__reviews">
+                            815 Reviews
+                        </div>
+                        <div class="review__icon">
+                            <i class="review__icon-left fas fa-chevron-left"></i>
+                            <i class="review__icon-right fas fa-chevron-right"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="customer-reviews__container">
+                    <div class="customer-reviews__main">
+                        <div class="customer-reviews__review">
+                            <div class="customer-reviews__star">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+
+                            <p class="customer-reviews__day">
+                                11/12/21
+                            </p>
+                        </div>
+
+                        <h3 class="customer-reviews__title-main">
+                            Delicious
+                        </h3>
+                        <div class="customer-reviews__content">
+                            <div class="customer-reviews__product">
+                                <div class="customer-reviews__img">
+                                    <img class="reviews__img" src="https://cdn.shopify.com/s/files/1/0857/4434/products/varietypack_360x.jpg?v=1604844801" alt="">
+                                </div>
+                                <p class="customer-reviews__name">
+                                    ultimate variety pack
+                                </p>
+                            </div>
+
+                            <div class="customer-reviews__desc">
+                                <div class="customer-reviews__desc-description">
+                                    Best snack around! Simple, healthy ingredients that the entire family love!! As a person with type 1 diabetes and celiac snacking ...
+                                    <div class="read-more">Read more</div>
+                                </div>
+                                <p class="customer-reviews__desc-assessor">
+                                    Alyssa T.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="customer-reviews__main">
+                        <div class="customer-reviews__review">
+                            <div class="customer-reviews__star">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+
+                            <p class="customer-reviews__day">
+                                06/29/19
+                            </p>
+                        </div>
+
+                        <h3 class="customer-reviews__title-main">
+                            Explosion of flavours
+                        </h3>
+                        <div class="customer-reviews__content">
+                            <div class="customer-reviews__product">
+                                <div class="customer-reviews__img">
+                                    <img class="reviews__img" src="https://cdn.shopify.com/s/files/1/0857/4434/products/coconutgrey_67cff280-4e52-4330-8a0e-c125351a22b6_360x.jpg?v=1641336601" alt="">
+                                </div>
+                                <p class="customer-reviews__name">
+                                    coconut energy bites
+                                </p>
+                            </div>
+
+                            <div class="customer-reviews__desc">
+                                <div class="customer-reviews__desc-description">
+                                    My favourite snack!! Amazing flavour and texture! Simple and clean ingredients. I have it on top of my smoothie, with my yogurt or...
+                                    <div class="read-more">Read more</div>
+                                </div>
+                                <p class="customer-reviews__desc-assessor">
+                                    Ayelens
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="customer-reviews__main">
+                        <div class="customer-reviews__review">
+                            <div class="customer-reviews__star">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+
+                            <p class="customer-reviews__day">
+                                12/18/20
+                            </p>
+                        </div>
+
+                        <h3 class="customer-reviews__title-main">
+                            YUM
+                        </h3>
+                        <div class="customer-reviews__content">
+                            <div class="customer-reviews__product">
+                                <div class="customer-reviews__img">
+                                    <img class="reviews__img" src="https://cdn.shopify.com/s/files/1/0857/4434/products/nomziclesweb245_360x.jpg?v=1641495808" alt="">
+                                </div>
+                                <p class="customer-reviews__name">
+                                    nomzicles - 12 pack
+                                </p>
+                            </div>
+
+                            <div class="customer-reviews__desc">
+                                <div class="customer-reviews__desc-description">
+                                    Absolutely love these! Just enough for a sweet fix without all the downside. Will be ordering often
+                                    
+                                </div>
+                                <p class="customer-reviews__desc-assessor">
+                                    Amy F.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="energy-bites grid wide">
+                <h2 class="energy-bites__title">
+                    Energy Bites
+                </h2>
+                <div class="product__list row">
+                    <div class="product__info col l-3">
+                        <div class="product__img">
+                            <img src="./assets/img/trangchu/bestseller1.webp" alt="">
+                        </div>
+
+                        <div class="product__name">
+                            energy bites assorted box
+                        </div>
+
+                        <div class="product__price">
+                            from $ 36.000 CAD
+                        </div>
+
+                        <div class="product__flex">
+                            <div class="product__star">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+
+                            <div class="product__reviews">
+                                95 reviews
+                            </div>
+                        </div>
+
+                        <button class="product__btn">
+                            View product
+                        </button>
+                    </div>
+
+                    <div class="product__info col l-3">
+                        <div class="product__img">
+                            <img src="./assets/img/trangchu/bestseller2.webp" alt="">
+                        </div>
+
+                        <div class="product__name">
+                            daily nourish superfood mix
+                        </div>
+
+                        <div class="product__price">
+                            $ 68.000 CAD
+                        </div>
+
+                        <div class="product__flex">
+                            <div class="product__star">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+
+                            <div class="product__reviews">
+                                16 reviews
+                            </div>
+                        </div>
+
+                        <button class="product__btn">
+                            View product
+                        </button>
+                    </div>
+
+                    <div class="product__info col l-3">
+                        <div class="product__img">
+                            <img src="https://cdn.shopify.com/s/files/1/0857/4434/products/coconutgrey_67cff280-4e52-4330-8a0e-c125351a22b6_720x.jpg?v=1641336601" alt="">
+                        </div>
+
+                        <div class="product__name">
+                            ultimate variety pack
+                        </div>
+
+                        <div class="product__price">
+                            $ 140.000 CAD
+                        </div>
+
+                        <div class="product__flex">
+                            <div class="product__star">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+
+                            <div class="product__reviews">
+                                157 reviews
+                            </div>
+                        </div>
+
+                        <button class="product__btn">
+                            View product
+                        </button>
+                    </div>
+
+                    <div class="product__info col l-3">
+                        <div class="product__img">
+                            <img src="./assets/img/trangchu/bestseller4.webp" alt="">
+                        </div>
+
+                        <div class="product__name">
+                            nomzicles - 12 pack
+                        </div>
+
+                        <div class="product__price">
+                            $ 48.000 CAD
+                        </div>
+
+                        <div class="product__flex">
+                            <div class="product__star">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+
+                            <div class="product__reviews">
+                                13 reviews
+                            </div>
+                        </div>
+
+                        <button class="product__btn">
+                            View product
+                        </button>
+                    </div>
+
+                    <div class="product__info col l-3">
+                        <div class="product__img">
+                            <img src="https://cdn.shopify.com/s/files/1/0857/4434/products/almondbox2021_720x.jpg?v=1637873846" alt="">
+                        </div>
+
+                        <div class="product__name">
+                            almond energy bites
+                        </div>
+
+                        <div class="product__price">
+                            $ 40.000 CAD
+                        </div>
+
+                        <div class="product__flex">
+                            <div class="product__star">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+
+                            <div class="product__reviews">
+                                95 reviews
+                            </div>
+                        </div>
+
+                        <button class="product__btn">
+                            View product
+                        </button>
+                    </div>
+
+                    <div class="product__info col l-3">
+                        <div class="product__img">
+                            <img src="https://cdn.shopify.com/s/files/1/0857/4434/products/jargroup_720x.jpg?v=1604848253" alt="">
+                        </div>
+
+                        <div class="product__name">
+                            energy bites set of four jars
+                        </div>
+
+                        <div class="product__price">
+                            $ 100.000 CAD
+                        </div>
+
+                        <div class="product__flex">
+                            <div class="product__star">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+
+                            <div class="product__reviews">
+                                16 reviews
+                            </div>
+                        </div>
+
+                        <button class="product__btn">
+                            View product
+                        </button>
+                    </div>
+
+                    <div class="product__info col l-3">
+                        <div class="product__img">
+                            <img src="https://cdn.shopify.com/s/files/1/0857/4434/products/hazelnutboxweb_720x.jpg?v=1604844615" alt="">
+                        </div>
+
+                        <div class="product__name">
+                            hazelnut energy bites
+                        </div>
+
+                        <div class="product__price">
+                            from $ 40.000 CAD
+                        </div>
+
+                        <div class="product__flex">
+                            <div class="product__star">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+
+                            <div class="product__reviews">
+                                157 reviews
+                            </div>
+                        </div>
+
+                        <button class="product__btn">
+                            View product
+                        </button>
+                    </div>
+
+
+
+
+
+                </div>
+
+            </div>
+
+            <div class="nut-butters grid wide">
+                <h2 class="nut-butters__title">
+                    Nut Butters
+                </h2>
+                <div class="product__list row">
+                    <div class="product__info col l-2-4">
+                        <div class="product__img">
+                            <img src="https://cdn.shopify.com/s/files/1/0857/4434/products/butterstrio-8oz_25f34604-7915-447e-99ea-600b8a27132c_720x.jpg?v=1648655444" alt="">
+                        </div>
+
+                        <div class="product__name">
+                            nut butter sample pack <br> <br>
+                        </div>
+
+                        <div class="product__price">
+                            $ 50.000 CAD
+                        </div>
+
+                        <div class="product__flex">
+                            <div class="product__star">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+
+                            <div class="product__reviews">
+                                29 reviews
+                            </div>
+                        </div>
+
+                        <button class="product__btn">
+                            View product
+                        </button>
+                    </div>
+
+                    <div class="product__info col l-2-4">
+                        <div class="product__img">
+                            <img src="https://cdn.shopify.com/s/files/1/0857/4434/products/Nomz_Butters_WebPhotos-macadamia_720x.png?v=1647297508" alt="">
+                        </div>
+
+                        <div class="product__name">
+                            organic macadamia nut butter
+                        </div>
+
+                        <div class="product__price">
+                            from $ 50.000 CAD
+                        </div>
+
+                        <div class="product__flex">
+                            <div class="product__star">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+
+                            <div class="product__reviews">
+                                19 reviews
+                            </div>
+                        </div>
+
+                        <button class="product__btn">
+                            View product
+                        </button>
+                    </div>
+
+                    <div class="product__info col l-2-4">
+                        <div class="product__img">
+                            <img src="https://cdn.shopify.com/s/files/1/0857/4434/products/Nomz_Butters_WebPhotos-hazelnut_720x.png?v=1647297316" alt="">
+                        </div>
+
+                        <div class="product__name">
+                            organic hazelnut nut butter
+                        </div>
+
+                        <div class="product__price">
+                            $ 30.000 CAD
+                        </div>
+
+                        <div class="product__flex">
+                            <div class="product__star">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+
+                            <div class="product__reviews">
+                                57 reviews
+                            </div>
+                        </div>
+
+                        <button class="product__btn">
+                            View product
+                        </button>
+                    </div>
+
+                    <div class="product__info col l-2-4">
+                        <div class="product__img">
+                            <img src="https://cdn.shopify.com/s/files/1/0857/4434/products/pistbutter45_b6964b4c-f6ca-47ad-af42-aacd213c3bad_720x.png?v=1647297312" alt="">
+                        </div>
+
+                        <div class="product__name">
+                            organic pistachio nut butter
+                        </div>
+
+                        <div class="product__price">
+                            $ 30.000 CAD
+                        </div>
+
+                        <div class="product__flex">
+                            <div class="product__star">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+
+                            <div class="product__reviews">
+                                28 reviews
+                            </div>
+                        </div>
+
+                        <button class="product__btn">
+                            View product
+                        </button>
+                    </div>
+
+                    <div class="product__info col l-2-4">
+                        <div class="product__img">
+                            <img src="https://cdn.shopify.com/s/files/1/0857/4434/products/chocolatealmondbuttercups-12-2_720x.jpg?v=1647297180" alt="">
+                        </div>
+
+                        <div class="product__name">
+                            organic almond nut butter
+                        </div>
+
+                        <div class="product__price">
+                            $ 36.000 CAD
+                        </div>
+
+                        <div class="product__flex">
+                            <div class="product__star">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+
+                            <div class="product__reviews">
+                                18 reviews
+                            </div>
+                        </div>
+
+                        <button class="product__btn">
+                            View product
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="nomz grid wide">
+                <h2 class="nomz__title">@nomz</h2>
+
+                <ul class="nomz__slider">
+                    <li class="nomz__img">
+                        <a href="" class="nomz__img-link">
+                            <img src="https://cdn.shopify.com/s/files/1/0857/4434/products/superfoods_720x.png?v=1649170902" alt="">
+                        </a>
+                    </li>
+                    <li class="nomz__img">
+                        <a href="" class="nomz__img-link">
+                            <img src="https://cdn.shopify.com/s/files/1/0857/4434/products/beetsmoothie_720x.jpg?v=1649170902" alt="">
+                        </a>
+                    </li>
+                    <li class="nomz__img">
+                        <a href="" class="nomz__img-link">
+                            <img src="https://cdn.shopify.com/s/files/1/0857/4434/products/giftbox_675bf339-43f6-47ee-b9b9-806f01a05d16_720x.jpg?v=1649172563" alt="">
+                        </a>
+                    </li>
+                    <li class="nomz__img">
+                        <a href="" class="nomz__img-link">
+                            <img src="https://cdn.shopify.com/s/files/1/0857/4434/products/dailynourish_720x.png?v=1648510669" alt="">
+                        </a>
+                    </li>
+                    <li class="nomz__img">
+                        <a href="" class="nomz__img-link">
+                            <img src="https://cdn.shopify.com/s/files/1/0857/4434/products/dailynourishing_720x.jpg?v=1649170897" alt="">
+                        </a>
+                    </li>
+                    <li class="nomz__img">
+                        <a href="" class="nomz__img-link">
+                            <img src="https://cdn.shopify.com/s/files/1/0857/4434/products/purple45_720x.jpg?v=1641495808" alt="">
+                        </a>
+                    </li>
+                    <li class="nomz__img">
+                        <a href="" class="nomz__img-link">
+                            <img src="https://cdn.shopify.com/s/files/1/0857/4434/products/greensmoothie_720x.jpg?v=1649170897" alt="">
+                        </a>
+                    </li>
+
+                    
+                </ul>
+            </div>
+
+            <div class="satisfaction">
+                <div class="satisfaction__background">
+                    <div class="satisfaction__text">
+                        <h2 class="satisfaction__title">
+                            Satisfaction Guarantee
+                        </h2>
+    
+                        <p class="satisfaction__desc">
+                            We're lucky to have so many happy customers. We're confident you'll be one too.
+                            
+                        </p>
+                        <p class="satisfaction__desc">
+                            If you're not 100% satisfied with your order, reach out to hello@nomz.com and we'll send you a full refund, no questions asked.
+                        </p>
+                    </div>
+
+                </div>
+                
+            </div>
+
+            <div class="sign-up">
+                <div class="sign-up__text">
+                    <h2 class="sign-up__title">
+                        Sign Up + Save
+                    </h2>
+    
+                    <p class="sign-up__desc">
+                        Join our wellness mailing list for delish recipes, health tips, and fun news from us! We send out an email once a week.
+                    </p>
+                </div>
+
+                <div class="sign-up__send flex">
+                    <input type="email" class="sign-up__input" placeholder="Email address">
+
+                    <button type="submit" class="sign-up__btn">
+                        Sign Me Up
+                    </button>
+                </div>
+            </div>
         </div>
 
         <footer class="footer">
@@ -181,7 +988,7 @@
                 
             </button>
         </footer>
-        
+
     </div>
 </body>
 

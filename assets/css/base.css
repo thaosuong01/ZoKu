@@ -1,6 +1,7 @@
 :root {
     --primary-color: #6cace4;
     --text-color: #fff;
+    --color: #585e68;
 }
 
 * {
@@ -19,4 +20,5 @@ html {
     box-sizing: border-box;
     background-color: #fefefe;
 }
+
 

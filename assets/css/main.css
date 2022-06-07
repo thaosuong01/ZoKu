@@ -1,15 +1,40 @@
 .header {
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
 
+>>>>>>> master
+=======
+
+>>>>>>> master
     width: 100%;
 }
 
 .header__nav {
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
 
+>>>>>>> master
+=======
+
+>>>>>>> master
     height: 80px;
     background-color: var(--primary-color);
     display: flex;
     justify-content: space-between;
     align-items: center;
+<<<<<<< HEAD
+<<<<<<< HEAD
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 99999;
+=======
+>>>>>>> master
+=======
+>>>>>>> master
 
 }
 
@@ -85,12 +110,27 @@
     padding-top: 40px;
     height: 1000px;
 } */
-
+main {
+    padding-top: 80px;
+}
 
 /* Footer */
 .footer {
     height: 220px;
 }
+<<<<<<< HEAD
+<<<<<<< HEAD
+
+.icon-search {}
+
+.header__icon-cart {}
+
+.icon-cart {}
+
+.header__content {}
+=======
+=======
+>>>>>>> master
 .icon-search {
 
 }
@@ -105,6 +145,10 @@
 
 .header__content {
 }
+<<<<<<< HEAD
+>>>>>>> master
+=======
+>>>>>>> master
 
 .header__content-img {
     height: 745px;
@@ -143,7 +187,15 @@
     padding: 24px;
     font-weight: 500;
     letter-spacing: 5px;
+<<<<<<< HEAD
+<<<<<<< HEAD
+
+=======
     
+>>>>>>> master
+=======
+    
+>>>>>>> master
 }
 
 .header__content-btn {
@@ -204,14 +256,31 @@
 }
 
 /* best-sellers */
+<<<<<<< HEAD
+<<<<<<< HEAD
+.best-sellers {}
+=======
 .best-sellers {
 }
+>>>>>>> master
+=======
+.best-sellers {
+}
+>>>>>>> master
 
 .best-sellers__title {
     margin-top: 120px;
     text-align: center;
     color: var(--color);
+<<<<<<< HEAD
+<<<<<<< HEAD
+    font-size: 2.4rem;
+=======
     font-size: 2.4rem; 
+>>>>>>> master
+=======
+    font-size: 2.4rem; 
+>>>>>>> master
     margin-bottom: 70px;
 }
 
@@ -227,7 +296,15 @@
     margin: 16px 0;
 }
 
+<<<<<<< HEAD
+<<<<<<< HEAD
+.product__img img {
+=======
 .product__img img{
+>>>>>>> master
+=======
+.product__img img{
+>>>>>>> master
     width: 275px;
     height: 330px;
 }
@@ -289,7 +366,15 @@
 
 .customer-reviews__title {
     color: var(--color);
+<<<<<<< HEAD
+<<<<<<< HEAD
+    font-size: 2.4rem;
+=======
     font-size: 2.4rem; 
+>>>>>>> master
+=======
+    font-size: 2.4rem; 
+>>>>>>> master
 }
 
 .review {
@@ -320,8 +405,17 @@
     justify-content: space-around;
 }
 
+<<<<<<< HEAD
+<<<<<<< HEAD
+.customer-reviews__main {}
+=======
 .customer-reviews__main {
 }
+>>>>>>> master
+=======
+.customer-reviews__main {
+}
+>>>>>>> master
 
 .customer-reviews__review {
     display: flex;
@@ -353,9 +447,19 @@
     margin-right: 50px;
 }
 
+<<<<<<< HEAD
+<<<<<<< HEAD
+.customer-reviews__product {}
+=======
 .customer-reviews__product {
     
 }
+>>>>>>> master
+=======
+.customer-reviews__product {
+    
+}
+>>>>>>> master
 
 .customer-reviews__img {
     margin-right: 12px;
@@ -376,9 +480,19 @@
     margin-right: 5px;
 }
 
+<<<<<<< HEAD
+<<<<<<< HEAD
+.customer-reviews__desc {}
+=======
 .customer-reviews__desc {
 
 }
+>>>>>>> master
+=======
+.customer-reviews__desc {
+
+}
+>>>>>>> master
 
 .customer-reviews__desc-description {
     font-size: 1.4rem;
@@ -400,9 +514,19 @@
 }
 
 /* energy-bites */
+<<<<<<< HEAD
+<<<<<<< HEAD
+.energy-bites {}
+=======
 .energy-bites {
     
 }
+>>>>>>> master
+=======
+.energy-bites {
+    
+}
+>>>>>>> master
 
 .energy-bites__title {
     margin-top: 120px;
@@ -413,8 +537,17 @@
 }
 
 /* nut-butters */
+<<<<<<< HEAD
+<<<<<<< HEAD
+.nut-butters {}
+=======
 .nut-butters {
 }
+>>>>>>> master
+=======
+.nut-butters {
+}
+>>>>>>> master
 
 .nut-butters__title {
     margin-top: 120px;
@@ -434,13 +567,29 @@
     margin: 16px 0;
 }
 
+<<<<<<< HEAD
+<<<<<<< HEAD
+.nut-butters .product__img img {
+=======
 .nut-butters .product__img img{
+>>>>>>> master
+=======
+.nut-butters .product__img img{
+>>>>>>> master
     width: 210px;
     height: 255px;
 }
 
 .nut-butters .product__name {
+<<<<<<< HEAD
+<<<<<<< HEAD
+
+=======
     
+>>>>>>> master
+=======
+    
+>>>>>>> master
     font-size: 1.8rem;
     font-weight: 600;
     line-height: 1.8rem;
@@ -483,9 +632,19 @@
     color: var(--text-color);
 }
 
+<<<<<<< HEAD
+<<<<<<< HEAD
+.nomz {}
+=======
 .nomz {
 
 }
+>>>>>>> master
+=======
+.nomz {
+
+}
+>>>>>>> master
 
 .nomz__title {
     margin-top: 120px;
@@ -514,6 +673,17 @@
     margin-right: 40px;
 }
 
+<<<<<<< HEAD
+<<<<<<< HEAD
+.nomz__img-link {}
+
+.nomz__img-link img {
+    width: 300px;
+    height: 300px;
+
+=======
+=======
+>>>>>>> master
 .nomz__img-link {
 
 }
@@ -522,6 +692,10 @@
     width: 300px;
     height: 300px;
     
+<<<<<<< HEAD
+>>>>>>> master
+=======
+>>>>>>> master
 }
 
 /* satisfaction */
@@ -535,7 +709,15 @@
     background-image: url(../img/trangchu/satic.webp);
     background-size: cover;
     position: relative;
+<<<<<<< HEAD
+<<<<<<< HEAD
+
+=======
     
+>>>>>>> master
+=======
+    
+>>>>>>> master
 }
 
 .satisfaction__text {
@@ -564,9 +746,19 @@
     text-align: center;
 }
 
+<<<<<<< HEAD
+<<<<<<< HEAD
+.sign-up__text {}
+=======
 .sign-up__text {
     
 }
+>>>>>>> master
+=======
+.sign-up__text {
+    
+}
+>>>>>>> master
 
 .sign-up__title {
     margin-top: 50px;
@@ -699,7 +891,15 @@
     padding: 4px 0;
 }
 
+<<<<<<< HEAD
+<<<<<<< HEAD
+.footer__content-sub span {
+=======
 .footer__content-sub span{
+>>>>>>> master
+=======
+.footer__content-sub span{
+>>>>>>> master
 
     color: var(--text-color);
     font-size: 1.6rem;
@@ -744,6 +944,14 @@
 }
 .footer__sign-up-sendletter{
 
+<<<<<<< HEAD
+<<<<<<< HEAD
+.footer__sign-up-sendletter {
+
+=======
+>>>>>>> master
+=======
+>>>>>>> master
     cursor: pointer;
     border: none;
     padding: 8px 12px;
@@ -792,5 +1000,14 @@
     border-top-right-radius: 2px;
     box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
 
+<<<<<<< HEAD
+<<<<<<< HEAD
+}
+=======
 }
 
+>>>>>>> master
+=======
+}
+
+>>>>>>> master
